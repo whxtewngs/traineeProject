@@ -1,3 +1,9 @@
+Запуск приложения:
+1. Установить мок-сервер, например https://mockoon.com/
+2. Установить CORS заголовки.
+3. Импортировать json файл мока из дериктории ./mock
+4. Запустить приложение командой npm start.
+
 # front
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
