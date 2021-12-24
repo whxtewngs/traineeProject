@@ -1,0 +1,5 @@
+html {
+  box-sizing: border-box;
+  background-color: #F1F2F6;
+  transition: transform .5;
+}

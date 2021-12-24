@@ -1,0 +1,310 @@
+{
+  "uuid": "f91b1cbd-9d84-44e2-9e4b-04aadf4c4763",
+  "lastMigration": 18,
+  "name": "New environment (copy)",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3006,
+  "routes": [
+    {
+      "uuid": "60ad1748-25a8-4677-a398-559b6f21c314",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/card/1",
+      "responses": [
+        {
+          "uuid": "cb0979b5-6e1f-4f1e-9502-32d264cd86c2",
+          "body": "[\r\n  {\r\n    \"id\": 1,\r\n    \"projectCardDto\": {\r\n        \"projectName\": \"Чат-бот\",\r\n        \"creatorName\": \"Петров А.И.\",\r\n        \"firm\": \"МФЦ\",\r\n        \"finishingDate\": \"2021-15-02\",\r\n        \"projectStage\": \"Середина\",\r\n        \"isDocumentRequired\": true,\r\n        \"functionalDirection\": \"Внедрение автоматической системы для общения с пользователями\",\r\n        \"projectArea\": \"Государственное и муниципальное управление\",\r\n        \"cardCreateDate\": \"2020-11-21\",\r\n        \"status\": \"В архиве\"\r\n    },\r\n    \"projectTeamCardDto\": {\r\n        \"isProductDevelop\": true,\r\n        \"methodology\": \"Agile\",\r\n        \"analytics\": \"1\",\r\n        \"developers\": \"1\",\r\n        \"testers\": \"0\",\r\n        \"techWriters\": \"0\",\r\n        \"stakeHoldersCount\": \"30\",\r\n        \"developerRequirements\": \"React, Vue. js, NodeJS, REST API.Другие языки программирования;Умение работать с unit, интеграционными и e2e тестами;Знание как работать в большой команде;Английский язык.\",\r\n        \"analyticsRequirements\": \"Собирать и формулировать бизнес-требования.Выявлять функциональные и нефункциональные требования из бизнес-требований.Подготавливать техническую документацию (ГОСТы и стандарты, UML-диаграммы, семейство IDEF, BPMN и другие подходы).SQL, СУБД, REST/SOAP, основы ООП и любого языка программирования.\",\r\n        \"devOps\": \"0.5\",\r\n        \"designers\": \"0.2\",\r\n        \"isTeamFormed\": true,\r\n        \"teamCount\": \"2.7\"\r\n    },\r\n    \"projectManagementDto\": {\r\n        \"officeLocation\": \"\",\r\n        \"isTimeChange\": true,\r\n        \"isOffice\": false,\r\n        \"dayStart\": \"11:00\",\r\n        \"dayEnd\": \"20:00\",\r\n        \"teamStartDate\": \"2020-12-17\",\r\n        \"overTime\": \"Нет\",\r\n        \"description\": \"Описание проблемы – на данный момент сотрудники колл-центра тратят много времени на регистрацию обращений пользователей в системе, а сотрудники тех. поддержки на решение типовых проблем. Также существует вероятность, что сроки решения обращения могут быть нарушены из-за несвоевременного оповещения сотрудниками тех. поддержки менеджера, который по согласованию с пользователем может продлить сроки работы по обращению.Цель проекта – снижение времязатрат по регистрации обращений в системе и по решению типовых проблем пользователей за счет внедрения\",\r\n        \"tasks\": \"Необходимо внедрить автоматическую систему для общения с пользователями (Далее Чат-бот).Чат-бот — виртуальный помощник, программа, имитирующая поведение человека при общении с пользователем. Он отвечает на вопросы ответами из базы знаний и реагирует на конкретные команды, и выдает с ее помощью ответы на конкретные обращения пользователей.Так же он должен обеспечивать простое (человеческое) общение с пользователем на различные темы (погода, уточнение времени, уточнение информации о компании или решениях), уведомлять сотрудников тех. поддержки о приближении дедлайнов по обращениям и помогать в поиске типовых обращений пользователей в системе для их быстрого решения.Все диалоги (логика) в чат-боте должна выстраиваться с помощью простого инструмента (конструктора). Бот должен обеспечить возможность регистрации обращения. Бот должен обеспечить хранение всей истории переписки с пользователем.\",\r\n        \"comment\": \"strUPDATEing\"\r\n    },\r\n    \"recruitingCardDto\": {\r\n        \"fullName\": \"\",\r\n        \"phoneNumber\": \"\",\r\n        \"email\": \"\",\r\n        \"employeeAListDtoList\": [\r\n            {\r\n                \"fullAnalyticName\": \"\",\r\n                \"phoneAnalyticNumber\": \"\",\r\n                \"emailAnalytic\": \"\"\r\n            },\r\n            {\r\n                \"fullAnalyticName\": \"\",\r\n                \"phoneAnalyticNumber\": \"\",\r\n                \"emailAnalytic\": \"\"\r\n            }\r\n        ],\r\n        \"employeeDListDtoList\": [\r\n            {\r\n                \"fullName\": \"UPDATE\",\r\n                \"phoneNumber\": \"UPDATE\",\r\n                \"email\": \"UPDATE\"\r\n            },\r\n            {\r\n                \"fullName\": \"\",\r\n                \"phoneNumber\": \"\",\r\n                \"email\": \"\"\r\n            }\r\n        ]\r\n    },\r\n    \"projectTypeDto\": [\r\n        \"\",\r\n        \"\",\r\n        \"\",\r\n        \"\"\r\n    ],\r\n    \"technologies\": [\r\n        \"React\",\r\n        \"Vue.js\",\r\n        \"UML\",\r\n        \"SOAP\",\r\n        \"REST\",\r\n        \"NodeJS\"\r\n    ]\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "df56e533-7893-4b84-95e7-347dd73ab645",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/projects",
+      "responses": [
+        {
+          "uuid": "5d8be259-98da-43be-a9e9-76837f2969ca",
+          "body": "[\r\n  {\r\n    \"id\": 1,\r\n    \"projectName\": \"Чат-бот\",\r\n    \"creatorName\": \"Петров А.И.\",\r\n    \"firm\": \"МФЦ\",\r\n    \"projectArea\": \"Государственное и муниципальное управление\",\r\n    \"status\": \"В архиве\",\r\n    \"projectStage\": \"Середина\",\r\n    \"cardCreateDate\": \"2020-11-21T15:37:15.008+00:00\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"projectName\": \"Проект1\",\r\n    \"creatorName\": \"Автор1\",\r\n    \"firm\": \"ММК\",\r\n    \"projectArea\": \"Металлургия\",\r\n    \"status\": \"В архиве\",\r\n    \"projectStage\": \"Начало\",\r\n    \"cardCreateDate\": \"2021-12-03T15:37:15.008+00:00\"\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"projectName\": \"\",\r\n    \"creatorName\": \"Игорев П.С.\",\r\n    \"firm\": \"Минобрнауки России\",\r\n    \"projectArea\": \"Государственное и муниципальное управление\",\r\n    \"status\": \"Черновик\",\r\n    \"projectStage\": \"Инициация\",\r\n    \"cardCreateDate\": \"2021-10-11T15:37:15.008+00:00\"\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"projectName\": \"Система контроля\",\r\n    \"creatorName\": \"Сергеев В.И.\",\r\n    \"firm\": \"ММК\",\r\n    \"projectArea\": \"Металлургия\",\r\n    \"status\": \"Активна\",\r\n    \"projectStage\": \"Завершение\",\r\n    \"cardCreateDate\": \"2021-12-01T15:37:15.008+00:00\"\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"projectName\": \"Торговая площадка\",\r\n    \"creatorName\": \"Сергеев В.И.\",\r\n    \"firm\": \"ММК\",\r\n    \"projectArea\": \"Металлургия\",\r\n    \"status\": \"В архиве\",\r\n    \"projectStage\": \"Начало\",\r\n    \"cardCreateDate\": \"2021-12-07T15:37:15.008+00:00\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "ccec0199-5268-4939-ba1f-ef18b8ee8ded",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "createCard",
+      "responses": [
+        {
+          "uuid": "776b09da-6f51-489c-8141-dde5e1459908",
+          "body": "{\n  \"id\": 6\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "4d9367d5-82c1-4715-a920-c8bf8d5234ec",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "e2e5de57-3e1e-4f7c-abb0-a6ceb850d82a",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/card/3",
+      "responses": [
+        {
+          "uuid": "8abf7c29-a5dc-4c7a-b0cb-5cbf63f71ae8",
+          "body": "[\r\n  {\r\n    \"id\": 3,\r\n    \"projectCardDto\": {\r\n        \"projectName\": \"\",\r\n        \"creatorName\": \"Игорев П.С.\",\r\n        \"firm\": \"Минобрнауки России\",\r\n        \"finishingDate\": \"\",\r\n        \"projectStage\": \"Инициация\",\r\n        \"isDocumentRequired\": true,\r\n        \"functionalDirection\": \"Внедрение экспертно-аналитической системы прогнозирования\",\r\n        \"projectArea\": \"Государственное и муниципальное управление\",\r\n        \"cardCreateDate\": \"2020-11-10\",\r\n        \"status\": \"Черновик\"\r\n    },\r\n    \"projectTeamCardDto\": {\r\n        \"isProductDevelop\": true,\r\n        \"methodology\": \"Agile\",\r\n        \"analytics\": \"1\",\r\n        \"developers\": \"2\",\r\n        \"testers\": \"1\",\r\n        \"techWriters\": \"1\",\r\n        \"stakeHoldersCount\": \"\",\r\n        \"developerRequirements\": \"Уверенное знание Python;Опыт работы с Django;Знание одного из Python фреймворков: Flask, Tornado, Celery, Django Rest Framework и умение с ним работать;Понимание структуры разработки и возможность с нуля реализовать архитектуру проекта;Понимание выбора стека технологий под техническое задание с учетом будущего развития проекта.Работал с трекерами задач (JIRA, Redmine и прочее);Знаком с технологиями: RabbitMQ, Redis, Ansible, unittest, doctest, mock;\",\r\n        \"analyticsRequirements\": \"Сопровождение разработки.Собирать и формулировать бизнес-требования.Выявлять функциональные и нефункциональные требования из бизнес-требований.Подготавливать техническую документацию (ГОСТы и стандарты, UML-диаграммы, семейство IDEF, BPMN и другие подходы).SQL, СУБД, REST/SOAP, основы ООП и любого языка программирования.\",\r\n        \"devOps\": \"1\",\r\n        \"designers\": \"1\",\r\n        \"isTeamFormed\": false,\r\n        \"teamCount\": \"0\"\r\n    },\r\n    \"projectManagementDto\": {\r\n        \"officeLocation\": \"\",\r\n        \"isTimeChange\": false,\r\n        \"isOffice\": false,\r\n        \"dayStart\": \"\",\r\n        \"dayEnd\": \"\",\r\n        \"teamStartDate\": \"\",\r\n        \"overTime\": \"Иногда\",\r\n        \"description\": \"Апробация и ввод в эксплуатацию экспертно-аналитической системы прогнозирования потребностей в профессиональном кадровом обеспечении социально-экономического развития Российской Федерации в целях проведения экспертизы формирования контрольных цифр приема в учреждения профессионального образования Российской Федерации.Необходимым условием успешной реализации запланированных мероприятий в сфере профессионального образования является адекватное изменение (совершенствование) системы управления данной сферой, затрагивающее различные аспекты деятельности в сфере профессионального образования, в том числе прогнозирование потребности в подготовке кадров в системе профессионального образования и формирование государственного задания на подготовку кадров (контрольных цифр приема).Государственный заказ должен стать действенным механизмом, способствующим обеспечению работодателей рабочей силой в необходимом количестве и требуемой квалификации, что является одной из приоритетных задач. Ключевые моменты в решении задачи: совершенствование системы мониторинга и прогнозирования ситуации на рынке труда и обеспечение сбалансированности спроса и предложения на специалистов с профессиональным образованием.\",\r\n        \"tasks\": \"Создать единую экспертно-аналитической систему прогнозирования оптимального выпуска учреждений профессионального образования и формирования контрольных цифр приема (далее – система прогнозирования) для:экспертизы и анализа потребности экономики Российской Федерации и субъектов Российской Федерации в специалистах с профессиональным образованием;экспертизы соответствия существующей структуры подготовки по программам профессионального образования прогнозу потребности экономики Российской Федерации и субъектов Российской Федерации в специалистах с профессиональным образованием;прогнозирования оптимального выпуска учреждений профессионального образования и формирования контрольных цифр приема при различных сценариях социально-экономического развития Российской Федерации и субъектов Российской Федерации.\",\r\n        \"comment\": \"strUPDATEing\"\r\n    },\r\n    \"recruitingCardDto\": {\r\n        \"fullName\": \"\",\r\n        \"phoneNumber\": \"\",\r\n        \"email\": \"\",\r\n        \"employeeAListDtoList\": [\r\n            {\r\n                \"fullAnalyticName\": \"\",\r\n                \"phoneAnalyticNumber\": \"\",\r\n                \"emailAnalytic\": \"\"\r\n            },\r\n            {\r\n                \"fullAnalyticName\": \"\",\r\n                \"phoneAnalyticNumber\": \"\",\r\n                \"emailAnalytic\": \"\"\r\n            }\r\n        ],\r\n        \"employeeDListDtoList\": [\r\n            {\r\n                \"fullName\": \"UPDATE\",\r\n                \"phoneNumber\": \"UPDATE\",\r\n                \"email\": \"UPDATE\"\r\n            },\r\n            {\r\n                \"fullName\": \"\",\r\n                \"phoneNumber\": \"\",\r\n                \"email\": \"\"\r\n            }\r\n        ]\r\n    },\r\n    \"projectTypeDto\": [\r\n        \"Фикс\",\r\n        \"ПО\",\r\n        \"Разработка с нуля\",\r\n        \"Полный функционал\"\r\n    ],\r\n    \"technologies\": [\r\n        \"Python\",\r\n        \"SQL\",\r\n        \"UML\",\r\n        \"SOAP\",\r\n        \"REST\",\r\n        \"Docker\",\r\n        \"RabbitMQ\"\r\n    ]\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "7b9f3a5a-ca44-4d3d-9a65-1a7c07caabe8",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/card/4",
+      "responses": [
+        {
+          "uuid": "8c9cb569-9e14-47ad-9abe-5fef11c4a48e",
+          "body": "[\r\n  {\r\n    \"id\": 4,\r\n    \"projectCardDto\": {\r\n        \"projectName\": \"Система контроля\",\r\n        \"creatorName\": \"Сергеев В.И.\",\r\n        \"firm\": \"ММК\",\r\n        \"finishingDate\": \"2022-02-13\",\r\n        \"projectStage\": \"Завершение\",\r\n        \"isDocumentRequired\": true,\r\n        \"functionalDirection\": \"Создание системы внутреннего контроля\",\r\n        \"projectArea\": \"Металлургия\",\r\n        \"cardCreateDate\": \"2020-12-01\",\r\n        \"status\": \"Активна\"\r\n    },\r\n    \"projectTeamCardDto\": {\r\n        \"isProductDevelop\": true,\r\n        \"methodology\": \"Agile\",\r\n        \"analytics\": \"1\",\r\n        \"developers\": \"2\",\r\n        \"testers\": \"1\",\r\n        \"techWriters\": \"0\",\r\n        \"stakeHoldersCount\": \"107\",\r\n        \"developerRequirements\": \"Работа с Javascript(ES6), HTML5/CSS, React/Redux и системами контроля версий.React, REST API, Web API, Redux, GraphQL.Другие языки программирования.Как работать с unit, интеграционными и e2e тестами.Работал с трекерами задач (JIRA, Redmine и прочее).Английский язык.\",\r\n        \"analyticsRequirements\": \"Опыт разработки диаграмм UML.Знание принципов REST/Web сервисов, очередей сообщений, XML/JSON, XSD/JSON Schema.Собирать и формулировать бизнес-требования.Выявлять функциональные и нефункциональные требования из бизнес-требований.Подготавливать техническую документацию (ГОСТы и стандарты, UML-диаграммы, семейство IDEF, BPMN и другие подходы).SQL, СУБД, REST/SOAP, основы ООП и любого языка программирования.\",\r\n        \"devOps\": \"1\",\r\n        \"designers\": \"1\",\r\n        \"isTeamFormed\": false,\r\n        \"teamCount\": \"5\"\r\n    },\r\n    \"projectManagementDto\": {\r\n        \"officeLocation\": \"г. Ульяновск, Комсомольский пер., 22\",\r\n        \"isTimeChange\": false,\r\n        \"isOffice\": true,\r\n        \"dayStart\": \"\",\r\n        \"dayEnd\": \"\",\r\n        \"teamStartDate\": \"2021-12-20\",\r\n        \"overTime\": \"Постоянно\",\r\n        \"description\": \"Руководство одного из ведущих мировых сталелитейных предприятий инициировало проект «Создание системы внутреннего контроля за подготовкой финансовой отчетности с использованием решения Oracle Internal Controls Manager.\",\r\n        \"tasks\": \"В рамках проекта по созданию Системы внутреннего контроля за подготовкой финансовой отчетности (СВКФО) на комбинате уже реализовано:автоматизированный документооборот в рамках СВКФО;обеспечение хранения информации и необходимой степени ее защиты;создание единого информационного поля для работы всех заинтересованных лиц (владельцы бизнес-процессов, внутренние и внешние аудиторы, топ-менеджмент), с разделением полномочий в рамках СВКФО.В рамках проекта необходимо доработать - интеграцию процессов СВКФО с процессами корпоративной информационной системы ММК, действующей на основе приложений Oracle E-Business Suite.\",\r\n        \"comment\": \"strUPDATEing\"\r\n    },\r\n    \"recruitingCardDto\": {\r\n        \"fullName\": \"\",\r\n        \"phoneNumber\": \"\",\r\n        \"email\": \"\",\r\n        \"employeeAListDtoList\": [\r\n            {\r\n                \"fullAnalyticName\": \"\",\r\n                \"phoneAnalyticNumber\": \"\",\r\n                \"emailAnalytic\": \"\"\r\n            },\r\n            {\r\n                \"fullAnalyticName\": \"\",\r\n                \"phoneAnalyticNumber\": \"\",\r\n                \"emailAnalytic\": \"\"\r\n            }\r\n        ],\r\n        \"employeeDListDtoList\": [\r\n            {\r\n                \"fullName\": \"UPDATE\",\r\n                \"phoneNumber\": \"UPDATE\",\r\n                \"email\": \"UPDATE\"\r\n            },\r\n            {\r\n                \"fullName\": \"\",\r\n                \"phoneNumber\": \"\",\r\n                \"email\": \"\"\r\n            }\r\n        ]\r\n    },\r\n    \"projectTypeDto\": [\r\n        \"Фикс\",\r\n        \"ПО\",\r\n        \"Разработка с нуля\",\r\n        \"Полный функционал\"\r\n    ],\r\n    \"technologies\": [\r\n        \"React\",\r\n        \"JS (ES5,ES6,ESNext)\",\r\n        \"GraphQL\",\r\n        \"HTML5\",\r\n        \"UML\",\r\n        \"BPMN\",\r\n        \"REST\"\r\n    ]\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "481c010a-d32c-4f73-971a-2eb41a53b2d8",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/card/5",
+      "responses": [
+        {
+          "uuid": "74d97890-cfe3-45b6-a7f6-18dee9c16124",
+          "body": "[\r\n  {\r\n    \"id\": 5,\r\n    \"projectCardDto\": {\r\n        \"projectName\": \"Торговая площадка\",\r\n        \"creatorName\": \"Сергеев В.И.\",\r\n        \"firm\": \"ММК\",\r\n        \"finishingDate\": \"2022-04-10\",\r\n        \"projectStage\": \"Начало\",\r\n        \"isDocumentRequired\": true,\r\n        \"functionalDirection\": \"– Создание портала поставщиков и электронной торговой площадки\",\r\n        \"projectArea\": \"Металлургия\",\r\n        \"cardCreateDate\": \"2021-12-01\",\r\n        \"status\": \"В архиве\"\r\n    },\r\n    \"projectTeamCardDto\": {\r\n        \"isProductDevelop\": true,\r\n        \"methodology\": \"Agile\",\r\n        \"analytics\": \"1\",\r\n        \"developers\": \"2\",\r\n        \"testers\": \"1\",\r\n        \"techWriters\": \"0\",\r\n        \"stakeHoldersCount\": \"75\",\r\n        \"developerRequirements\": \"Работа с ООП, принципами SOLID, паттернами проектирования, Java, SQL и системами контроля версий.Spring (DI/IoC, Data, WebMVC), Spring Boot, Web (Servlets, REST, SOAP), XML (JAXB / SAX, XSL), Oracle/PostgreSQL, Jakarta EE, Docker.Как разбираться в чужом коде и вносить в него изменения.Английский язык.Знание как работать в большой команде.\",\r\n        \"analyticsRequirements\": \"Коммуникация с аналитиками смежных систем на всех этапах реализации задачи.Собирать и формулировать бизнес-требования.Выявлять функциональные и нефункциональные требования из бизнес-требований.Подготавливать техническую документацию (ГОСТы и стандарты, UML-диаграммы, семейство IDEF, BPMN и другие подходы).SQL, СУБД, REST/SOAP, основы ООП и любого языка программирования.\",\r\n        \"devOps\": \"1\",\r\n        \"designers\": \"0.5\",\r\n        \"isTeamFormed\": true,\r\n        \"teamCount\": \"5.5\"\r\n    },\r\n    \"projectManagementDto\": {\r\n        \"officeLocation\": \"\",\r\n        \"isTimeChange\": true,\r\n        \"isOffice\": false,\r\n        \"dayStart\": \"11:00\",\r\n        \"dayEnd\": \"20:00\",\r\n        \"teamStartDate\": \"2021-12-30\",\r\n        \"overTime\": \"Иногда\",\r\n        \"description\": \"Реализация проекта создания портала поставщиков и электронной торговой площадки на Магнитогорском металлургическом комбинате. Целью проекта являлось повышение прозрачности и эффективности логистических процессов комбината, вовлечение клиентов и поставщиков ММК в рациональные отношения сотрудничества.Портал поставщиков будет позволять создавать поставщику предварительные уведомления о поставках с указанием, даты отгрузки, прибытия на комбинат, объема продукции, данные транспортной накладной. Все данные автоматически попадают в КИС ММК, что позволяет использовать оперативные данные поставщиков для анализа и планирования деятельности комбината.\",\r\n        \"tasks\": \"В рамках проекта на ММК будет развернута электронная торговая площадка. В ходе ее создания будут реализованы все методы конкурентной проработки: конкурентные карты, тендеры, электронные торги. Система будет давать возможность проводить анализ и контроль объективности и правильности процесса выбора поставщика.Будет внедрен юридически значимый документооборот в рамках корпоративной ЭТП на основе приложений Oracle E-Business Suite. Также реализован полный спектр функциональности корпоративной ЭТП в сочетании с, возможно, наиболее многослойной и полной защитой информации в такого рода проектах в России. Повышение прозрачности и эффективности логистических процессов комбината.\",\r\n        \"comment\": \"strUPDATEing\"\r\n    },\r\n    \"recruitingCardDto\": {\r\n        \"fullName\": \"Сергеев В.И\",\r\n        \"phoneNumber\": \"+7 000-000-00\",\r\n        \"email\": \"email@gmail.com\",\r\n        \"employeeAListDtoList\": [\r\n            {\r\n                \"fullAnalyticName\": \"Сергеев В.И\",\r\n                \"phoneAnalyticNumber\": \"+7 000-000-00\",\r\n                \"emailAnalytic\": \"email@gmail.com\"\r\n            },\r\n            {\r\n                \"fullAnalyticName\": \"Сергеев В.И\",\r\n                \"phoneAnalyticNumber\": \"+7 000-000-00\",\r\n                \"emailAnalytic\": \"email@gmail.com\"\r\n            }\r\n        ],\r\n        \"employeeDListDtoList\": [\r\n            {\r\n                \"fullName\": \"Сергеев В.И\",\r\n                \"phoneNumber\": \"+7 000-000-00\",\r\n                \"email\": \"email@gmail.com\"\r\n            },\r\n            {\r\n                \"fullName\": \"Сергеев В.И\",\r\n                \"phoneNumber\": \"+7 000-000-00\",\r\n                \"email\": \"email@gmail.com\"\r\n            }\r\n        ]\r\n    },\r\n    \"projectTypeDto\": [\r\n        \"Т&М\",\r\n        \"ПО\",\r\n        \"Разработка с нуля\",\r\n        \"Полный функционал\"\r\n    ],\r\n    \"technologies\": [\r\n        \"JAVA\",\r\n        \"Jakarta EE\",\r\n        \"UML\",\r\n        \"SOAP\",\r\n        \"UML\",\r\n        \"RESТ\",\r\n        \"Spring\",\r\n        \"Docker\"\r\n    ]\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "f1d9ed77-fb6b-48e7-b820-b6ac7020506d",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "api/card/2",
+      "responses": [
+        {
+          "uuid": "f02321eb-4d7e-423a-ad5c-6f458f7585bb",
+          "body": "[\r\n  {\r\n    \"id\": 2,\r\n    \"projectCardDto\": {\r\n        \"projectName\": \"Торговая площадка\",\r\n        \"creatorName\": \"Сергеев В.И.\",\r\n        \"firm\": \"ММК\",\r\n        \"finishingDate\": \"2022-04-10\",\r\n        \"projectStage\": \"Начало\",\r\n        \"isDocumentRequired\": true,\r\n        \"functionalDirection\": \"– Создание портала поставщиков и электронной торговой площадки\",\r\n        \"projectArea\": \"Металлургия\",\r\n        \"cardCreateDate\": \"2021-12-01\",\r\n        \"status\": \"В архиве\"\r\n    },\r\n    \"projectTeamCardDto\": {\r\n        \"isProductDevelop\": true,\r\n        \"methodology\": \"Agile\",\r\n        \"analytics\": \"1\",\r\n        \"developers\": \"2\",\r\n        \"testers\": \"1\",\r\n        \"techWriters\": \"0\",\r\n        \"stakeHoldersCount\": \"75\",\r\n        \"developerRequirements\": \"Работа с ООП, принципами SOLID, паттернами проектирования, Java, SQL и системами контроля версий.Spring (DI/IoC, Data, WebMVC), Spring Boot, Web (Servlets, REST, SOAP), XML (JAXB / SAX, XSL), Oracle/PostgreSQL, Jakarta EE, Docker.Как разбираться в чужом коде и вносить в него изменения.Английский язык.Знание как работать в большой команде.\",\r\n        \"analyticsRequirements\": \"Коммуникация с аналитиками смежных систем на всех этапах реализации задачи.Собирать и формулировать бизнес-требования.Выявлять функциональные и нефункциональные требования из бизнес-требований.Подготавливать техническую документацию (ГОСТы и стандарты, UML-диаграммы, семейство IDEF, BPMN и другие подходы).SQL, СУБД, REST/SOAP, основы ООП и любого языка программирования.\",\r\n        \"devOps\": \"1\",\r\n        \"designers\": \"0.5\",\r\n        \"isTeamFormed\": true,\r\n        \"teamCount\": \"5.5\"\r\n    },\r\n    \"projectManagementDto\": {\r\n        \"officeLocation\": \"\",\r\n        \"isTimeChange\": true,\r\n        \"isOffice\": false,\r\n        \"dayStart\": \"11:00\",\r\n        \"dayEnd\": \"20:00\",\r\n        \"teamStartDate\": \"2021-12-30\",\r\n        \"overTime\": \"Иногда\",\r\n        \"description\": \"Реализация проекта создания портала поставщиков и электронной торговой площадки на Магнитогорском металлургическом комбинате. Целью проекта являлось повышение прозрачности и эффективности логистических процессов комбината, вовлечение клиентов и поставщиков ММК в рациональные отношения сотрудничества.Портал поставщиков будет позволять создавать поставщику предварительные уведомления о поставках с указанием, даты отгрузки, прибытия на комбинат, объема продукции, данные транспортной накладной. Все данные автоматически попадают в КИС ММК, что позволяет использовать оперативные данные поставщиков для анализа и планирования деятельности комбината.\",\r\n        \"tasks\": \"В рамках проекта на ММК будет развернута электронная торговая площадка. В ходе ее создания будут реализованы все методы конкурентной проработки: конкурентные карты, тендеры, электронные торги. Система будет давать возможность проводить анализ и контроль объективности и правильности процесса выбора поставщика.Будет внедрен юридически значимый документооборот в рамках корпоративной ЭТП на основе приложений Oracle E-Business Suite. Также реализован полный спектр функциональности корпоративной ЭТП в сочетании с, возможно, наиболее многослойной и полной защитой информации в такого рода проектах в России. Повышение прозрачности и эффективности логистических процессов комбината.\",\r\n        \"comment\": \"strUPDATEing\"\r\n    },\r\n    \"recruitingCardDto\": {\r\n        \"fullName\": \"Сергеев В.И\",\r\n        \"phoneNumber\": \"+7 000-000-00\",\r\n        \"email\": \"email@gmail.com\",\r\n        \"employeeAListDtoList\": [\r\n            {\r\n                \"fullAnalyticName\": \"Сергеев В.И\",\r\n                \"phoneAnalyticNumber\": \"+7 000-000-00\",\r\n                \"emailAnalytic\": \"email@gmail.com\"\r\n            },\r\n            {\r\n                \"fullAnalyticName\": \"Сергеев В.И\",\r\n                \"phoneAnalyticNumber\": \"+7 000-000-00\",\r\n                \"emailAnalytic\": \"email@gmail.com\"\r\n            }\r\n        ],\r\n        \"employeeDListDtoList\": [\r\n            {\r\n                \"fullName\": \"Сергеев В.И\",\r\n                \"phoneNumber\": \"+7 000-000-00\",\r\n                \"email\": \"email@gmail.com\"\r\n            },\r\n            {\r\n                \"fullName\": \"Сергеев В.И\",\r\n                \"phoneNumber\": \"+7 000-000-00\",\r\n                \"email\": \"email@gmail.com\"\r\n            }\r\n        ]\r\n    },\r\n    \"projectTypeDto\": [\r\n        \"Т&М\",\r\n        \"ПО\",\r\n        \"Разработка с нуля\",\r\n        \"Полный функционал\"\r\n    ],\r\n    \"technologies\": [\r\n        \"JAVA\",\r\n        \"Jakarta EE\",\r\n        \"UML\",\r\n        \"SOAP\",\r\n        \"RESТ\",\r\n        \"Spring\",\r\n        \"Docker\"\r\n    ]\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "700f07e6-e53d-460a-9544-dc5cc92a5568",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "autocompleteArrayFirm",
+      "responses": [
+        {
+          "uuid": "1d0942e0-086b-42b3-8b3e-bd840cbc57ef",
+          "body": "[\n  \"ICBC\",\n  \"Apple \",\n  \"Amadeus\",\n  \"ExxonMobile\",\n  \"Magento\",\n  \"Ubisoft\",\n  \"Mitsubishi\",\n  \"Wix\",\n  \"Admixer\",\n  \"Toyota Motor\",\n  \"Microsoft\",\n  \"Google\",\n  \"Amazon\",\n  \"McDonalds\",\n  \"Samsung\",\n  \"IBM\",\n  \"BMW\",\n  \"FedEX\",\n  \"Nike\",\n  \"Johnson&Johnson\",\n  \"IBS Group Holding Ltd\",\n  \"Роскосмос\",\n  \"Газпром\",\n  \"Nortel\",\n  \"Росгосстрах\"\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "1d56f769-0749-4dce-9576-09e6199e66f6",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "autocompleteArrayProjectArea",
+      "responses": [
+        {
+          "uuid": "3aa45be9-d783-4830-8daf-e418eb82b184",
+          "body": "[\n  \"Государственное и муниципальное управление\",\n  \"Машиностроение и ОПК\",\n  \"Торговля, ТНП, услуги\",\n  \"Металлургия\",\n  \"Наука и образование\",\n  \"Строительство\",\n  \"Добывающие отрасли\",\n  \"Деревообработка и целлюлозно-бумажная промышленность\",\n  \"Транспорт\",\n  \"Логистика\",\n  \"Энергетика и ЖКХ\",\n  \"Автомобильная промышленность\",\n  \"Химическая отрасль\",\n  \"Страхование\",\n  \"Банки и финансовые организации\",\n  \"Телекоммуникации\",\n  \"Холдинги\",\n  \"Интернет и электронная торговля\",\n  \"Девелопмент\",\n  \"Аудит и консалтинг\",\n  \"Здравоохранение и соцобеспечение\",\n  \"Медиа\"\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "ab825943-2eec-4350-b79f-958e3877423d",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "autocompleteArrayTech",
+      "responses": [
+        {
+          "uuid": "f6b10805-efbe-4b42-a13f-599881e69fa2",
+          "body": "[\n  \"Laravel\",\n  \"Yii2\",\n  \"PHP7\",\n  \"Python\",\n  \"Django\",\n  \"Golang\",\n  \"Java SE\",\n  \"Spring\",\n  \"Jakarta EE\",\n  \"MySQL\",\n  \"PostgreSQL\",\n  \"RabbitMQ\",\n  \"Docker\",\n  \"SQL\",\n  \"HTML5\",\n  \"JS (ES5,ES6,ESNext)\",\n  \"TypeScript\",\n  \"Angular\",\n  \"React\",\n  \"Vue.js\",\n  \"NodeJS\",\n  \"GraphQL\",\n  \"Swift\",\n  \"Rx\",\n  \"Kotlin\",\n  \"Java\",\n  \"Clean Architecture\",\n  \"DI\",\n  \"Google Pay\",\n  \"Flutter\",\n  \"XCTest\",\n  \"Selenium\",\n  \"TestCaseLab\",\n  \"JMeter\",\n  \"Esspresso\",\n  \"Postman\",\n  \"SRS\",\n  \"UML\",\n  \"BPMN\",\n  \"Swagger\",\n  \"SQL / noSQL\",\n  \"SOAP\",\n  \"REST\"\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "https": false,
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyRemovePrefix": false,
+  "hostname": "0.0.0.0"
+}
